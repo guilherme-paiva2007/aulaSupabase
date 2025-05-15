@@ -1,4 +1,4 @@
-// import supabase from "../../supabaseConfig.js";
+import supabase from "../../supabaseConfig.js";
 import * as FileSystem from "expo-file-system";
 import * as ImagePicker from "expo-image-picker";
 import { View } from "react-native";
