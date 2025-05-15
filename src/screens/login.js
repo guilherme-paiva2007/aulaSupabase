@@ -19,8 +19,8 @@ export default function Login({ navigation }) {
             });
 
             if (signUpError) {
-                alert(signUpError);
-                Alert.alert(signUpError);
+                alert(signUpError.message);
+                Alert.alert("Erro na autenticação", signUpError.message);
                 return;
             }
         
